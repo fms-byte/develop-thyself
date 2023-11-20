@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MyPersonalDevelopmentApp());
+  runApp(developThyself());
 }
 
-class MyPersonalDevelopmentApp extends StatelessWidget {
+class developThyself extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -22,7 +22,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('My Development App'),
+        title: Text('Develop Thyself!'),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
